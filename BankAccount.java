@@ -4,8 +4,17 @@ public class BankAccount{
   private String password;
 
   //constructor
-  public BankAccount(int accountID, String password){
-    accountID = accountID;
-    password = password;
+  public BankAccount(int ID, String pswrd){
+    accountID = ID;
+    password = pswrd;
+    balance = 0.0;
+  }
+
+  public int getAccountID(){
+    return accountID;
+  }
+
+  public double getBalance(){
+    return balance;
   }
 }
