@@ -13,5 +13,6 @@ public class Tester{
     System.out.println(ba.withdraw(250.43));
     System.out.println(ba.withdraw(50.25));
     System.out.println("Account Balance: " + ba.getBalance());
+    System.out.println(ba.toString());
   }
 }

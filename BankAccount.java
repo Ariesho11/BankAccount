@@ -10,6 +10,10 @@ public class BankAccount{
     balance = 0.0;
   }
 
+  public String toString(){
+    return accountID + "\t" + balance;
+  }
+
   public int getAccountID(){
     return accountID;
   }
