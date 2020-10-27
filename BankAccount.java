@@ -17,4 +17,9 @@ public class BankAccount{
   public double getBalance(){
     return balance;
   }
+
+  public void setPassword(String newPass){
+    password = newPass;
+  }
+
 }
