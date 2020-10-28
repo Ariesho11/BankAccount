@@ -3,7 +3,6 @@ public class BankAccount{
   private int accountID;
   private String password;
 
-  //constructor
   public BankAccount(int ID, String pswrd){
     accountID = ID;
     password = pswrd;
